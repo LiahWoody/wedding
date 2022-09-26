@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import First from './first/First';
+import Intro from './intro/Intro';
+import Message from './message/Message';
+import Calendar from './calendar/Calendar';
+import Gallery from './gallery/Gallery';
+import Location from './location/Location';
+import Contact from './contact/Contact';
+import Share from './share/Share';
+import Footer from './footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <First />
+    <Intro />
+    <Message />
+    <Calendar />
+    <Gallery />
+    <Location />
+    <Contact />
+    <Share />
+    <Footer />
   </React.StrictMode>
 );
 
