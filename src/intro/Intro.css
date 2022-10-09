@@ -1,8 +1,4 @@
 .Intro {
-    align-content: center;
-}
-
-.Intro-header {
     background-color: #282c34;
     background-image: url(../images/img_intro.png);
     background-repeat: no-repeat;
@@ -10,19 +6,28 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #FFFFFF;
+    align-items: center;
 }
 
-#Intro-message {
-    font-family: KyoboHandwriting2020A;
+.Intro-names {
+    text-align: center;
+    font-size: calc(12px + 8vmin);
+    color: #010b0c;
+    font-family: Cafe24Shiningstar;
+}
+
+.Intro-message {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: calc(12px + 4vmin);
+    color: #010b0d;
+    font-family: Cafe24Shiningstar;
 }
 
 @font-face {
-    font-family: 'KyoboHandwriting2020A';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

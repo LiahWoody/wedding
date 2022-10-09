@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import ReactCalendar from "react-calendar";
-import moment from "moment";
 import "./Calendar.css";
 
 function Calendar() {
   return (
     <div className="Calendar">
       <header className="Calendar-header">
+        <div className="Calendar-year-month">2023년 1월</div>
         <div>
           <ReactCalendar
             defaultValue={new Date(2023, 0, 7)}
@@ -17,6 +17,8 @@ function Calendar() {
             prev2Label={null}
             nextLabel={null}
             next2Label={null}
+            tileDisabled={(props) => true}
+            showNavigation={false}
           />
         </div>
       </header>
