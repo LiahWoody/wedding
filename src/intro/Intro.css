@@ -1,28 +1,87 @@
 .Intro {
-    background-color: #282c34;
-    background-image: url(../images/img_intro.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.Intro-names {
+.Intro-background {
+    background-image: url(../images/img_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Intro-image {
+    width: 100%;
+}
+
+.Intro-header {
+    font-size: calc(4px + 0.5vmin);
     text-align: center;
-    font-size: calc(12px + 8vmin);
-    color: #010b0c;
-    font-family: Cafe24Shiningstar;
+    color: #606060;
+    margin-top: 2.5em;
 }
 
-.Intro-message {
+.Intro-title-container {
+    margin-top: 3em;
+    /* position: relative; */
+}
+
+.Intro-title-message {
+    font-size: calc(12px + 12vmin);
+    color: #606060;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.Intro-title-initial {
+    font-size: calc(30px + 17vmin);
+    color: #F4ADAD;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(0%, -32%);
+}
+
+.Intro-title-names {
+    text-align: center;
+    vertical-align: top;
+    font-size: calc(4px + 2vmin);
+    color: #606060;
     margin-top: 0.5em;
+}
+
+.Intro-bottom-container {
+    display: flex;
+    vertical-align: bottom;
+    flex-direction: row;
+    padding-top: 88.5%;
+    font-size: calc(2px + 0.1vmin);
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 6em;
+    justify-content: space-between;
+}
+
+.Intro-bottom-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.Intro-bottom-right-name {
+    font-weight: bold;
+}
+
+.Intro-footer {
+    background-color: #949494;
+    color: #DCDCDC;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    justify-content: center;
     text-align: center;
-    font-size: calc(12px + 4vmin);
-    color: #010b0d;
-    font-family: Cafe24Shiningstar;
+    line-height: 135%;
+    font-size: calc(8px + 2vmin);
 }
 
 @font-face {
