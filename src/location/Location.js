@@ -8,9 +8,9 @@ function Location() {
       <hr className="divider" />
       <img className="image_location" src={imageLocation} />
       <div className="shortcut_container">
-        <button className="shortcut_style">네이버 지도 바로가기</button>&nbsp;
-        <button className="shortcut_style">카카오맵 바로가기</button>&nbsp;
-        <input className="shortcut_style" type="button" value="티맵 바로가기" />
+        <button className="shortcut_button">네이버 지도 바로가기</button>&nbsp;
+        <button className="shortcut_button">카카오맵 바로가기</button>&nbsp;
+        <button className="shortcut_button">티맵 바로가기</button>
       </div>
       <div className="location_text1">경기 수원시 영통구 봉영로 1591 (TEL. 032-202-3773)</div>
       <div className="location_text2">더 마레보 호텔&웨딩 15층 Atelier. M</div>

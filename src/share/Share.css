@@ -1,17 +1,29 @@
-.Share {
-    align-content: center;
+.share_container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: white;
 }
 
-.Share-header {
-    background-color: #f7f7f4;
-    /* background-image: url(../images/img_intro.png); */
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 12vh;
+.share_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.share_button_container {
+    border: solid 1px #afafaf;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #000000;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px;
+    color: #5f5f5f;
+}
+
+.share_button_container:active {
+    background-color: #efefef;
 }

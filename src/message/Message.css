@@ -20,7 +20,9 @@
 .Message-message {
     font-size: calc(12px + 2vmin);
     color: #919191;
-    margin-top: 1.4em;
     line-height: 1.75em;
+    margin-top: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: 5em;
 }

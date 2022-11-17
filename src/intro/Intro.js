@@ -3,8 +3,8 @@ import IntroImage from "../images/img_intro.jpg";
 
 function Intro() {
   return (
-    <div className="container">
-      <img className="image" src={IntroImage} alt="IntroImage" />
+    <div className="intro_container">
+      <img className="intro_image" src={IntroImage} alt="IntroImage" />
         <div className="image_left">
           <p>Yu Minhee&nbsp;&nbsp;Lee Jongwook</p>
         </div>
