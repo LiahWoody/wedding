@@ -11,7 +11,7 @@ import image9 from "../images/img_gallery9.jpg";
 
 function Gallery() {
   return (
-    <div className="container">
+    <div className="gallery_container">
       {/* first */}
       <div className="first_container">
         <img className="first_image" src={image1} />
