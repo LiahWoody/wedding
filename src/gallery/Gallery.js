@@ -1,12 +1,12 @@
 import "./Gallery.css";
 import image1 from "../images/img_gallery1.jpg";
 import image2 from "../images/img_gallery2.jpg";
-import image3 from "../images/img_gallery3.jpg";
+import image3 from "../images/img_gallery3.jpeg";
 import image4 from "../images/img_gallery4.jpg";
 import image5 from "../images/img_gallery5.jpg";
 import image6 from "../images/img_gallery6.jpg";
 import image7 from "../images/img_gallery7.jpg";
-import image8 from "../images/img_gallery8.jpg";
+import image8 from "../images/img_gallery8_text.jpeg";
 import image9 from "../images/img_gallery9.jpg";
 
 function Gallery() {
@@ -53,11 +53,10 @@ function Gallery() {
       {/* eighth */}
       <div className="eighth_container">
         <img className="eighth_image" src={image8} />
-        <div className="eighth_text">you are beautiful</div>
       </div>
       {/* nineth */}
       <div className="nineth_container">
-        <div className="nineth_text">the end</div>
+        <div className="nineth_text">Thank you</div>
         <img className="nineth_image" src={image9} />
       </div>
     </div>

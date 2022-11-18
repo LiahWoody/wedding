@@ -11,18 +11,30 @@
 }
 
 .Message-title {
-    font-size: calc(14px + 2vmin);
-    font-weight: bold;
+    font-size: 22px;
     color: #3E3E3E;
     margin-top: 3.2em;
+    font-family: var(--font-butler_light);
 }
 
 .Message-message {
-    font-size: calc(12px + 2vmin);
+    font-size: 16px;
     color: #919191;
     line-height: 1.75em;
     margin-top: 1.2em;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 5em;
+    font-family: "roboto";
+}
+
+.footer_container {
+    background-color: #949494;
+    color: #DCDCDC;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    text-align: center;
+    line-height: 135%;
+    font-size: calc(8px + 2vmin);
+    font-family: "roboto";
 }

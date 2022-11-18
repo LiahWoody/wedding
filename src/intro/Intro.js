@@ -1,5 +1,5 @@
 import "./Intro.css";
-import IntroImage from "../images/img_intro.jpg";
+import IntroImage from "../images/img_intro.jpeg";
 
 function Intro() {
   return (
@@ -9,8 +9,7 @@ function Intro() {
           <p>Yu Minhee&nbsp;&nbsp;Lee Jongwook</p>
         </div>
         <div className="image_right">
-          <p>Made by&nbsp;</p>
-          <p className="image_right_name">YGH</p>
+          <p>Made by <span className="image_right_name">YGH</span></p>
         </div>
     </div>
   );

@@ -14,3 +14,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --font-bugie: "bugie";
+  --font-butler_medium: "butler_medium";
+  --font-butler_light: "butler_light";
+  --font-magazine: "magazine";
+  --font-maruburi: "maruburi_regular";
+}
+
+@font-face {
+  font-family: "bugie";
+  src: url(./font/Bugie.ttf);
+}
+
+@font-face {
+  font-family: "butler_medium";
+  src: url(./font/Butler_Medium.otf);
+}
+
+@font-face {
+  font-family: "butler_light";
+  src: url(./font/Butler_Light.otf);
+}
+
+@font-face {
+  font-family: "magazine";
+  src: url(./font/MagazineLetterByBrntlbrnl-Regular.ttf);
+}
+
+@font-face {
+  font-family: "maruburi_regular";
+  src: url(./font/MaruBuri-Regular.otf);
+}

@@ -10,9 +10,10 @@
 }
 
 .title {
-  font-size: calc(18px + 2vmin);
+  font-size: 26px;
   text-align: center;
   color: #5f5f5f;
+  font-family: var(--font-butler_medium);
 }
 
 .divider {

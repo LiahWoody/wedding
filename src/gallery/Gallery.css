@@ -27,10 +27,11 @@
 .first_text1 {
     font-size: calc(16px + 9vmin);
     color: #FAE9C2;
+    font-family: var(--font-butler_medium);
 }
 
 .first_text2 {
-    font-size: calc(8px + 2vmin);
+    font-size: calc(5px + 2vmin);
     color: #FAE9C2;
 }
 
@@ -49,7 +50,9 @@
     writing-mode: vertical-rl;
     margin-left: 8px;
     margin-top: 4px;
-    font-size: calc(12px + 2vmin);
+    color: #5f5f5f;
+    font-size: 15px;
+    font-family: var(--font-butler_medium);
 }
 
 .third_container {
@@ -62,11 +65,13 @@
 }
 
 .third_image {
-    margin-top: 8px;
+    margin-top: 2px;
 }
 
 .third_text {
-    font-size: calc(8px + 2vmin);
+    font-size: 13px;
+    color: #5f5f5f;
+    font-family: var(--font-bugie);
 }
 
 .fourth_container {
@@ -84,13 +89,16 @@
 }
 
 .fourth_text {
-    font-size: calc(2px + 1vmin);
+    font-size: 8px;
+    color: #5f5f5f;
+    font-family: var(--font-bugie);
 }
 
 .fourth_image {
     width: 90%;
     transform: scaleX(-1);
     margin-right: 12px;
+    margin-top: 2px;
 }
 
 .fifth_image {
@@ -118,7 +126,9 @@
     position: absolute;
     margin-left: -20px;
     margin-top: 8px;
-    font-size: calc(2px + 1vmin);
+    font-size: 8px;
+    color: #5f5f5f;
+    font-family: var(--font-bugie);
 }
 
 .sixth_image {
@@ -133,9 +143,9 @@
 }
 
 .eighth_container {
-    margin-top: 80px;
-    width: 80%;
+    margin-top: 40px;
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -143,11 +153,6 @@
 
 .eighth_image {
     width: 100%;
-}
-
-.eighth_text {
-    font-size: calc(8px + 2vmin);
-    text-transform: uppercase;
 }
 
 .nineth_container {
@@ -161,10 +166,11 @@
 
 .nineth_text {
     position: absolute;
-    font-size: calc(20px + 2vmin);
+    font-size: 28px;
     text-transform: uppercase;
     left: 1px;
     right: 1px;
     margin-top: 20px;
     color: white;
+    font-family: var(--font-butler_light);
 }

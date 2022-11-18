@@ -4,7 +4,7 @@ import imageLocation from "../images/img_location.png";
 function Location() {
   return (
     <div className="location_container">
-      <div className="title">Location</div>
+      <div className="title">LOCATION</div>
       <hr className="divider" />
       <img className="image_location" src={imageLocation} />
       <div className="shortcut_container">
