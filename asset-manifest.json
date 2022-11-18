@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.f6f5c0c7.css",
-    "main.js": "/wedding/static/js/main.c0027c43.js",
+    "main.css": "/wedding/static/css/main.edc47922.css",
+    "main.js": "/wedding/static/js/main.ad740fa8.js",
     "static/js/787.4ff3cea1.chunk.js": "/wedding/static/js/787.4ff3cea1.chunk.js",
     "static/media/img_gallery2.jpg": "/wedding/static/media/img_gallery2.f6a7f06ded7e57c24659.jpg",
     "static/media/img_location.png": "/wedding/static/media/img_location.8ee7f527e0d8d5e0b40f.png",
+    "static/media/MaruBuri-Regular.otf": "/wedding/static/media/MaruBuri-Regular.ed429efab4a65eebc46e.otf",
+    "static/media/img_gallery3.jpeg": "/wedding/static/media/img_gallery3.944a953ae891578a8a03.jpeg",
     "static/media/img_gallery1.jpg": "/wedding/static/media/img_gallery1.be63a30bf9e6cc1339a7.jpg",
-    "static/media/img_gallery8.jpg": "/wedding/static/media/img_gallery8.c00efe34345d9674e176.jpg",
-    "static/media/img_gallery3.jpg": "/wedding/static/media/img_gallery3.e82b997a3689e53ab318.jpg",
-    "static/media/img_intro.jpg": "/wedding/static/media/img_intro.342ff2201aebf657b17f.jpg",
+    "static/media/img_gallery8_text.jpeg": "/wedding/static/media/img_gallery8_text.03f6dd897134f5146509.jpeg",
+    "static/media/img_intro.jpeg": "/wedding/static/media/img_intro.ec4830cb4bb370f3cb20.jpeg",
     "static/media/img_gallery5.jpg": "/wedding/static/media/img_gallery5.1aad25e29cfcf0c07884.jpg",
     "static/media/img_gallery4.jpg": "/wedding/static/media/img_gallery4.b189d9fe2983f4b48f36.jpg",
     "static/media/img_gallery6.jpg": "/wedding/static/media/img_gallery6.f8cf2f4230e132d79561.jpg",
     "static/media/img_gallery7.jpg": "/wedding/static/media/img_gallery7.b10dbc7ea9241b3c0ab9.jpg",
+    "static/media/MagazineLetterByBrntlbrnl-Regular.ttf": "/wedding/static/media/MagazineLetterByBrntlbrnl-Regular.2a8be83064c150b0fe63.ttf",
+    "static/media/Butler_Medium.otf": "/wedding/static/media/Butler_Medium.d5d598fd5194235af735.otf",
+    "static/media/Butler_Light.otf": "/wedding/static/media/Butler_Light.0737d51bdc90202fe832.otf",
     "static/media/img_gallery9.jpg": "/wedding/static/media/img_gallery9.34f29dbe64c44d39cfc7.jpg",
+    "static/media/Bugie.ttf": "/wedding/static/media/Bugie.fee92b6d050248a57f97.ttf",
     "index.html": "/wedding/index.html",
-    "main.f6f5c0c7.css.map": "/wedding/static/css/main.f6f5c0c7.css.map",
-    "main.c0027c43.js.map": "/wedding/static/js/main.c0027c43.js.map",
+    "main.edc47922.css.map": "/wedding/static/css/main.edc47922.css.map",
+    "main.ad740fa8.js.map": "/wedding/static/js/main.ad740fa8.js.map",
     "787.4ff3cea1.chunk.js.map": "/wedding/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f5c0c7.css",
-    "static/js/main.c0027c43.js"
+    "static/css/main.edc47922.css",
+    "static/js/main.ad740fa8.js"
   ]
 }
