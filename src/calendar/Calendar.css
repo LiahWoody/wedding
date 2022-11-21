@@ -149,12 +149,12 @@
   background: #1087ff;
 }
 .react-calendar__tile--active:disabled {
-  background: url("../images/ic_heart2.png");
+  background: url("../images/ic_heart5.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 65px;
-  background-position-y: -14px;
-  background-position-x: -7px;
+  background-size: 40px;
+  background-position-y: 0px;
+  background-position-x: 4px;
 }
 .react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #e6e6e6;
