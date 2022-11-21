@@ -3,11 +3,11 @@ import image1 from "../images/img_gallery1.jpg";
 import image2 from "../images/img_gallery2.jpg";
 import image3 from "../images/img_gallery3.jpeg";
 import image4 from "../images/img_gallery4.jpg";
-import image5 from "../images/img_gallery5.jpg";
-import image6 from "../images/img_gallery6.jpg";
-import image7 from "../images/img_gallery7.jpg";
+import image5 from "../images/img_gallery5.jpeg";
+import image6 from "../images/img_gallery6.jpeg";
+import image7 from "../images/img_gallery7.jpeg";
 import image8 from "../images/img_gallery8_text.jpeg";
-import image9 from "../images/img_gallery9.jpg";
+import image9 from "../images/img_gallery9.jpeg";
 
 function Gallery() {
   return (

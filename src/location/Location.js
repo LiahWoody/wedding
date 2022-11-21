@@ -1,5 +1,5 @@
 import "./Location.css";
-import imageLocation from "../images/img_location.png";
+import imageLocation from "../images/img_location1.png";
 
 function Location() {
   return (
