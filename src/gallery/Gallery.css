@@ -33,6 +33,7 @@
 .first_text2 {
     font-size: calc(5px + 2vmin);
     color: #FAE9C2;
+    font-family: var(--font-maruburi);
 }
 
 .second_container {
@@ -66,6 +67,7 @@
 
 .third_image {
     margin-top: 2px;
+    width: 100%;
 }
 
 .third_text {
@@ -95,15 +97,15 @@
 }
 
 .fourth_image {
-    width: 90%;
+    width: 100%;
     transform: scaleX(-1);
-    margin-right: 12px;
+    margin-right: 18px;
     margin-top: 2px;
 }
 
 .fifth_image {
-    width: 90%;
-    margin-left: 12px;
+    width: 85%;
+    margin-left: 24px;
     margin-top: 80px;
 }
 
@@ -137,8 +139,8 @@
 }
 
 .seventh_image {
-    width: 90%;
-    margin-left: 12px;
+    width: 95%;
+    margin-left: 10px;
     margin-top: 80px;
 }
 
@@ -162,6 +164,10 @@
     margin-top: 55px;
     width: 100%;
     text-align: center;
+}
+
+.nineth_image {
+    width: 100%;
 }
 
 .nineth_text {

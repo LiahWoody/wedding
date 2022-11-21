@@ -25,6 +25,7 @@
 
 .image_location {
   margin-top: 4px;
+  width: 100%;
 }
 
 .shortcut_container {
@@ -43,6 +44,7 @@
   display: inline-block;
   font-size: 10px;
   width: 100%;
+  font-family: var(--font-maruburi);
 }
 
 .shortcut_button:active {
@@ -54,13 +56,15 @@
   margin-top: 20px;
   font-size: 14px;
   color: #7f7f7f;
+  font-family: var(--font-maruburi);
 }
 
 .location_text2 {
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 8px;
   color: #5f5f5f;
+  font-family: var(--font-maruburi);
 }
 
 .location_detail_container {
@@ -70,6 +74,7 @@
   flex-direction: row;
   margin-top: 16px;
   padding: 1.6em 1em;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4em;
+  font-family: var(--font-maruburi);
 }

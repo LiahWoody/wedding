@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 20px;
     background-color: white;
+    font-family: var(--font-maruburi);
 }
 
 .contract_button_container {
@@ -16,6 +17,7 @@
     padding-top: 8px;
     padding-bottom: 8px;   
     margin-top: 10px;
+    font-family: var(--font-maruburi);
 }
 
 .contract_button_container:active {

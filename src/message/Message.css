@@ -25,7 +25,7 @@
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 5em;
-    font-family: "roboto";
+    font-family: var(--font-maruburi);
 }
 
 .footer_container {
@@ -36,5 +36,5 @@
     text-align: center;
     line-height: 135%;
     font-size: calc(8px + 2vmin);
-    font-family: "roboto";
+    font-family: var(--font-maruburi);
 }
