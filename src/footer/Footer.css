@@ -9,3 +9,9 @@
     background-color: white;
     font-family: var(--font-maruburi);
 }
+
+.footer_copyright {
+    margin-top: 12px;
+    font-size: 8px;
+    color: #afafaf;
+}
