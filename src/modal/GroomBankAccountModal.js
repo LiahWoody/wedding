@@ -24,12 +24,12 @@ function GroomBankAccountModal({ onClose }) {
     }
   }, [ToastStatus]);
 
-  const banckAccount1 = "11112222333";
-  const banckAccount2 = "55556667777";
+  const banckAccount1 = "037210602704";
+  const banckAccount2 = "037211220156";
 
   return (
     <Modal onClose={onClose}>
-      <h3>신랑측 계좌번호</h3>
+      <h4>신랑측 계좌번호</h4>
       <div className="bank_account_info">
         국민 {banckAccount1} 이창규
         <div

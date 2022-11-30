@@ -24,23 +24,15 @@ function BrideBankAccountModal({ onClose }) {
     }
   }, [ToastStatus]);
 
-  const banckAccount1 = "12341234";
-  const banckAccount2 = "567856789";
+  const banckAccount1 = "110348529546";
   
   return (
     <Modal onClose={onClose}>
-      <h3>신부측 계좌번호</h3>
+      <h4>신부측 계좌번호</h4>
       <div className="bank_account_info">
-        국민 {banckAccount1} 정미경
+        신한 {banckAccount1} 유민희
         <div className="bank_number_copy" onClick={() => {
           copyToClipboard(banckAccount1)
-          handleToast("복사 되었습니다")
-        }}>복사하기</div>
-      </div>
-      <div className="bank_account_info">
-        국민 {banckAccount2} 유민희
-        <div className="bank_number_copy" onClick={() => {
-          copyToClipboard(banckAccount2)
           handleToast("복사 되었습니다")
         }}>복사하기</div>
       </div>

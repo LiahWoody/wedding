@@ -2,10 +2,36 @@ import "./Share.css";
 import { useState, useEffect } from "react";
 import Toast from "../toast/Toast";
 import copyToClipboard from "../modal/CopyToClipboard";
-import iconKakao from "../images/ic_kakaotalk.png";
+import iconShareIOS from "../images/ic_share_ios.png";
+import iconShareAOS from "../images/ic_share_android.png";
 import iconCopy from "../images/ic_copy.png";
 
 function Share() {
+  const share = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: "이종욱 ❤️ 유민희의 모바일 청첩장",
+        url: "https://liahwoody.github.io/wedding",
+      });
+    } else {
+      copyToClipboard("https://liahwoody.github.io/wedding");
+      handleToast("링크가 복사되었습니다");
+    }
+  };
+
+  const userAgent = navigator.userAgent.toLowerCase();
+  var shareImage;
+  if (
+    userAgent.indexOf("iphone") > -1 ||
+    userAgent.indexOf("ipad") > -1 ||
+    userAgent.indexOf("ipod") > -1 ||
+    userAgent.indexOf("safari") > -1
+  ) {
+    shareImage = iconShareIOS
+  } else {
+    shareImage = iconShareAOS
+  }
+
   const [ToastStatus, setToastStatus] = useState(false);
   const [ToastMsg, setToastMsg] = useState(""); // 토스트에 표시할 메세지
 
@@ -37,9 +63,14 @@ function Share() {
         링크 복사하기
       </div>
       &nbsp;&nbsp;
-      <div className="share_button_container">
-        <img className="share_icon" src={iconKakao} />
-        카카오톡 공유하기
+      <div
+        className="share_button_container"
+        onClick={() => {
+          share();
+        }}
+      >
+        <img className="share_icon" src={shareImage} />
+        청첩장 공유하기
       </div>
       {ToastStatus && (
         <>
