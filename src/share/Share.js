@@ -15,7 +15,7 @@ function Share() {
       });
     } else {
       copyToClipboard("https://liahwoody.github.io/wedding");
-      handleToast("링크가 복사되었습니다");
+      handleToast("링크가 복사 되었습니다");
     }
   };
 
@@ -24,8 +24,7 @@ function Share() {
   if (
     userAgent.indexOf("iphone") > -1 ||
     userAgent.indexOf("ipad") > -1 ||
-    userAgent.indexOf("ipod") > -1 ||
-    userAgent.indexOf("safari") > -1
+    userAgent.indexOf("ipod") > -1
   ) {
     shareImage = iconShareIOS
   } else {
@@ -56,7 +55,7 @@ function Share() {
         className="share_button_container"
         onClick={() => {
           copyToClipboard("https://liahwoody.github.io/wedding");
-          handleToast("복사 되었습니다");
+          handleToast("링크가 복사 되었습니다");
         }}
       >
         <img className="share_icon" src={iconCopy} />

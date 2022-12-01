@@ -1,0 +1,16 @@
+.navi_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navi_text {
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: var(--font-maruburi);
+    color: #5f5f5f;
+    width: 100%;
+}
+
+.navi_text:active {
+    background-color: #efefef;
+}
