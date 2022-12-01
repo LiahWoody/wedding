@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.7b1e5fb6.css",
-    "main.js": "/wedding/static/js/main.2f09868f.js",
+    "main.css": "/wedding/static/css/main.47cb979e.css",
+    "main.js": "/wedding/static/js/main.4fb29726.js",
     "static/js/787.4ff3cea1.chunk.js": "/wedding/static/js/787.4ff3cea1.chunk.js",
     "static/media/img_location1.png": "/wedding/static/media/img_location1.3c1a5a5c124a48d80b16.png",
     "static/media/MaruBuri-Regular.otf": "/wedding/static/media/MaruBuri-Regular.ed429efab4a65eebc46e.otf",
@@ -20,12 +20,12 @@
     "static/media/Butler_Light.otf": "/wedding/static/media/Butler_Light.0737d51bdc90202fe832.otf",
     "static/media/Bugie.ttf": "/wedding/static/media/Bugie.fee92b6d050248a57f97.ttf",
     "index.html": "/wedding/index.html",
-    "main.7b1e5fb6.css.map": "/wedding/static/css/main.7b1e5fb6.css.map",
-    "main.2f09868f.js.map": "/wedding/static/js/main.2f09868f.js.map",
+    "main.47cb979e.css.map": "/wedding/static/css/main.47cb979e.css.map",
+    "main.4fb29726.js.map": "/wedding/static/js/main.4fb29726.js.map",
     "787.4ff3cea1.chunk.js.map": "/wedding/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1e5fb6.css",
-    "static/js/main.2f09868f.js"
+    "static/css/main.47cb979e.css",
+    "static/js/main.4fb29726.js"
   ]
 }
