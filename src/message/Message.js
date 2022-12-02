@@ -27,9 +27,9 @@ function Message() {
           <br />
         </div>
         <div className="message_member">
-          <b className="message_member_highligt">이창규 · 유귀옥</b>의 장남 <b className="message_member_highligt">이종욱</b>
+          <b className="message_member_highligt">이창규 · 유귀옥</b>의&nbsp;&nbsp;장남 <b className="message_member_highligt">이종욱</b>
           <br/>
-          <b className="message_member_highligt">유광동 · 정미경</b>의 차녀 <b className="message_member_highligt">유민희</b>
+          <b className="message_member_highligt">유광동 · 정미경</b>의&nbsp;&nbsp;차녀 <b className="message_member_highligt">유민희</b>
         </div>
       </header>
     </div>
