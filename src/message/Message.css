@@ -6,10 +6,6 @@
     text-align: center;
 }
 
-.Message-header {
-    min-height: 55vh;
-}
-
 .Message-title {
     font-size: 22px;
     color: #3E3E3E;
@@ -24,8 +20,21 @@
     margin-top: 1.2em;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 1.5em;
     font-family: var(--font-maruburi);
+}
+
+.message_member {
+    font-size: 14px;
+    margin-bottom: 4.5em;
+    color: #7f7f7f;
+    line-height: 1.75em;
+    letter-spacing: 0.15em;
+    font-family: var(--font-maruburi);
+}
+
+.message_member_highligt {
+    font-size: 16px;
 }
 
 .footer_container {
