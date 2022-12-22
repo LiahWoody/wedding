@@ -89,7 +89,7 @@ function Location() {
           &nbsp;- 시내버스: 2-1, 3, 13-1, 34-1, 203, 720-3
           <br />
           &nbsp;- 시외버스: 1112(잠실), G5100, 5100(강남),
-          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           7000(사당), M5107(서울역)
           <br />
