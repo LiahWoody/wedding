@@ -46,30 +46,30 @@ function NavigationModal({ onClose, title, appName }) {
   return (
     <Modal onClose={onClose}>
       <h4>{title}</h4>
-        <div
-          className="navi_text"
-          onClick={() => {
-            href(app.car, triplexLat, triplexLng, "트리플렉스");
-          }}
-        >
-          제1주차장 - 트리플렉스
-        </div>
-        <div
-          className="navi_text"
-          onClick={() => {
-            href(app.car, publicParkingLat, publicParkingLng, "영통공영주차장");
-          }}
-        >
-          제2주차장 - 영통공영주차장
-        </div>
-        <div
-          className="navi_text"
-          onClick={() => {
-            href(app.pub, marevoLat, marevoLng, "더마레보호텔&웨딩");
-          }}
-        >
-          더마레보호텔(주차불가)
-        </div>
+      <div
+        className="navi_text"
+        onClick={() => {
+          href(app.car, marevoLat, marevoLng, "더마레보호텔&웨딩");
+        }}
+      >
+        더마레보호텔
+      </div>
+      <div
+        className="navi_text"
+        onClick={() => {
+          href(app.car, triplexLat, triplexLng, "트리플렉스");
+        }}
+      >
+        제1주차장 - 트리플렉스
+      </div>
+      <div
+        className="navi_text"
+        onClick={() => {
+          href(app.car, publicParkingLat, publicParkingLng, "영통공영주차장");
+        }}
+      >
+        제2주차장 - 영통공영주차장
+      </div>
     </Modal>
   );
 }
