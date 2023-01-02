@@ -26,6 +26,7 @@ function GroomBankAccountModal({ onClose }) {
 
   const banckAccount1 = "037210602704";
   const banckAccount2 = "037211220156";
+  const banckAccount3 = "77200204068598";
 
   return (
     <Modal onClose={onClose}>
@@ -48,6 +49,18 @@ function GroomBankAccountModal({ onClose }) {
           className="bank_number_copy"
           onClick={() => {
             copyToClipboard(banckAccount2);
+            handleToast("복사 되었습니다");
+          }}
+        >
+          복사하기
+        </div>
+      </div>
+      <div className="bank_account_info">
+        국민 {banckAccount3} 이종욱
+        <div
+          className="bank_number_copy"
+          onClick={() => {
+            copyToClipboard(banckAccount3);
             handleToast("복사 되었습니다");
           }}
         >
