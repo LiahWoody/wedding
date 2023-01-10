@@ -30,12 +30,15 @@ function BrideBankAccountModal({ onClose }) {
     <Modal onClose={onClose}>
       <h4>신부측 계좌번호</h4>
       <div className="bank_account_info">
+        감사합니다.
+      </div>
+      {/* <div className="bank_account_info">
         신한 {banckAccount1} 유민희
         <div className="bank_number_copy" onClick={() => {
           copyToClipboard(banckAccount1)
           handleToast("복사 되었습니다")
         }}>복사하기</div>
-      </div>
+      </div> */}
       {ToastStatus && (
         <>
           <Toast msg={ToastMsg} />

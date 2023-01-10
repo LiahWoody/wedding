@@ -24,14 +24,17 @@ function GroomBankAccountModal({ onClose }) {
     }
   }, [ToastStatus]);
 
-  const banckAccount1 = "037210602704";
-  const banckAccount2 = "037211220156";
-  const banckAccount3 = "77200204068598";
+  const banckAccount1 = "0";
+  const banckAccount2 = "0";
+  const banckAccount3 = "0";
 
   return (
     <Modal onClose={onClose}>
       <h4>신랑측 계좌번호</h4>
       <div className="bank_account_info">
+        감사합니다.
+      </div>
+      {/* <div className="bank_account_info">
         국민 {banckAccount1} 이창규
         <div
           className="bank_number_copy"
@@ -66,7 +69,7 @@ function GroomBankAccountModal({ onClose }) {
         >
           복사하기
         </div>
-      </div>
+      </div> */}
       {ToastStatus && (
         <>
           <Toast msg={ToastMsg} />
