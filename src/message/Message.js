@@ -34,7 +34,7 @@ function Message() {
         </div>
       </header>
       <div>
-        <video className="message_video" controls>
+        <video className="message_video" controls playsInline>
           <source src={videoSrc} />
         </video>
       </div>
