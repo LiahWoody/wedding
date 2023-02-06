@@ -37,6 +37,10 @@
     font-size: 16px;
 }
 
+.message_video {
+    width: 100%;
+}
+
 .footer_container {
     background-color: #949494;
     color: #DCDCDC;

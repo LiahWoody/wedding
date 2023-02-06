@@ -1,4 +1,5 @@
 import "./Message.css";
+import videoSrc from "../images/video_liah_woody.mp4";
 
 function Message() {
   return (
@@ -32,6 +33,11 @@ function Message() {
           <b className="message_member_highligt">유광동 · 정미경</b>의&nbsp;&nbsp;차녀 <b className="message_member_highligt">유민희</b>
         </div>
       </header>
+      <div>
+        <video className="message_video" controls>
+          <source src={videoSrc} />
+        </video>
+      </div>
     </div>
   );
 }
